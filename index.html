@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Booker</title>
+
+    <script src="https://kit.fontawesome.com/cce2a2eb97.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="btn" id="btn"> Book your slot here</button>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <p class="close" id="close">&#10006;</p>
+            <header>
+                <h2 class="middle">Book a Premium Call</h2>
+                <p class="middle">If Accepted, Premium Calls Are Charged At <b>2X</b> The Price</p>
+            </header>
+            <div class="main-header">
+                <p id="dt">Select Date</p>
+                <p>Select Time Slot</p>
+
+            </div>
+            <div class="main">
+                <div class="cal halfW">
+                    <div class="container">
+                        <div class="calendar">
+                            <div class="month">
+                                <!-- <i class="fas fa-angle-left prev arrow"></i> -->
+                                <h3 class="prev forward">&lt;</h3>
+                                <div class="date">
+                                    <h3 class="middle"></h3>
+                                    <p></p>
+                                </div>
+                                <!-- <i class="fas fa-angle-right next arrow"></i> -->
+                                <h3 class="next forward">&gt;</h3>
+                            </div>
+                            <div class="weekdays">
+                                <div>S</div>
+                                <div>M</div>
+                                <div>T</div>
+                                <div>W</div>
+                                <div>T</div>
+                                <div>F</div>
+                                <div>S</div>
+                            </div>
+                            <div class="days"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="clock-root halfW">
+                    <div class="clock-header">
+
+                        <div class="in-hour" id="in-hour"></div> &nbsp;
+                        <div class="time" id="hr">3</div>
+                        <div class="time">:</div>             
+                        <div class="time" id="min">30</div>              
+                        <div class="am-pm">
+                            <p class="am" id="am">AM</p>
+                            <p class="pm" id="pm">PM</p>
+                        </div> &nbsp;&nbsp;
+                        <div class="in-hour" id="in-min"></div>
+                       
+                    </div>
+                    <div class="clock-body">
+                        <div class="clock-con">
+
+                            <div class="clock">
+                                <div class="hand hour" id="hand-hour" data-hour-hand></div>
+                                <!-- <div class="hand minute" data-minute-hand></div> -->
+                                <!-- <div class="hand second" data-second-hand></div> -->
+                                <div class="number number1">
+                                    <span id="number1">1</span>
+                                </div>
+                                <div class="number number2"><span id="number2" >2</span></div>
+                                <div class="number number3"><span id="number3" class="filled">3</span></div>
+                                <div class="number number4"><span id="number4">4</span></div>
+                                <div class="number number5"><span id="number5">5</span></div>
+                                <div class="number number6"><span id="number6">6</span></div>
+                                <div class="number number7"><span id="number7">7</span></div>
+                                <div class="number number8"><span id="number8">8</span></div>
+                                <div class="number number9"><span id="number9">9</span></div>
+                                <div class="number number10"><span id="number10">10</span></div>
+                                <div class="number number11"><span id="number11">11</span></div>
+                                <div class="number number12 "> <span id="number12"  >12</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <footer>
+                <button class="btn-1"> Schedule</button>
+                <p class="middle">Chances Of Confirmation Of Premium Calls in Completely At The Discretion Of The Mentor
+                </p>
+
+            </footer>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>

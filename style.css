@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+.btn {
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #e2c13e;
+    font-weight: bold;
+}
+
+.modal {
+    width: 610px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: none;
+
+}
+
+.middle {
+    text-align: center;
+    color:rgba(0,0,0,0.6);
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 12px;
+    height: auto;
+}
+
+header {
+    margin-top: 0px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+
+.main {
+    width: auto;
+    height: 280px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.halfW {
+    width: 50%;
+}
+
+.cal {
+    margin-right: 100px;
+    width: auto;
+}
+
+/* .clock{
+    border: 2px solid royalblue;
+} */
+
+/* Calendar CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+.calendar {
+    width: 20rem;
+    height: 230px;
+    background-color: inherit;
+    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+    background-color: white;
+    font-size: 10px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    margin-right: 30px;
+
+}
+
+.month {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.month i {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.month h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.month p {
+    font-size: 1.6rem;
+}
+
+.weekdays {
+    width: 100%;
+    height: 4rem;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+    opacity: 0.4;
+
+}
+
+.weekdays div {
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(38.2rem / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    margin: 0.3rem;
+}
+
+.days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0.2rem;
+    margin-left: 5px;
+}
+
+.days div {
+    font-size: 0.8rem;
+    width: calc(18.2rem / 7);
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+
+.prev-date,
+.next-date {
+    opacity: 0.5;
+}
+
+
+
+.today {
+    box-sizing: border-box;
+    /* border: 2.0px solid white; */
+    border-top: 1.5px solid #fff;
+    border-bottom: 1.5px solid #fff; 
+    border-left: 4.25px solid #fff; 
+    border-right: 4.25px solid #fff; 
+    border-radius: 50%;
+    background-color: #581c9cf0;
+    color:#fff;
+
+}
+
+* {
+    color: black;
+}
+
+
+
+
+/*Clock*/
+/*Heading Style*/
+.main-header {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: -22px;
+    margin-left: 35px;
+}
+
+.main-header p {
+    color: #581c9cf0;
+   
+}
+
+#dt {
+    width: 55%;
+    /* background-color: orange; */
+    margin-left: 15px;
+}
+
+#ts {
+    width: 40%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+}
+
+
+.clock-root {
+    /* background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%)); */
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 145px;
+    /* background-color:red; */
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    margin-left: -30px;
+    
+
+}
+
+.clock-header {
+    width: 100%;
+    height: 50px;
+    background-color: #581c9cf0;
+    margin-bottom: 22px;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.time {
+    width: auto;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+}
+#hr{
+    display: inline-block;
+}
+.am-pm p {
+    color: white;
+    font-size: 8px;
+    margin-left: 5px;
+}
+
+.clock-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-right: 10px;
+
+
+}
+
+.clock-con {
+    width: 120px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, .05);
+    position: relative;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.clock {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, .005);
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clock .number {
+    --rotation: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: rotate(var(--rotation));
+    font-size: 0.6rem;
+   
+
+
+}
+
+.clock .number1 {
+    --rotation: 30deg;
+}
+
+.clock .number2 {
+    --rotation: 60deg;
+}
+
+.clock .number3 {
+    --rotation: 90deg;
+}
+
+.clock .number4 {
+    --rotation: 120deg;
+}
+
+.clock .number5 {
+    --rotation: 150deg;
+}
+
+.clock .number6 {
+    --rotation: 180deg;
+}
+
+.clock .number7 {
+    --rotation: 210deg;
+}
+
+.clock .number8 {
+    --rotation: 240deg;
+}
+
+.clock .number9 {
+    --rotation: 270deg;
+}
+
+.clock .number10 {
+    --rotation: 300deg;
+}
+
+.clock .number11 {
+    --rotation: 330deg;
+}
+
+.clock .number12 {
+    --rotation: 360deg;
+}
+
+.clock .hand {
+    --rotation: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform-origin: bottom;
+    z-index: 10;
+    transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+
+.clock::after {
+    content: '';
+    position: absolute;
+    background-color: #5f2e8c;
+    z-index: 11;
+    width: 3px;
+    height: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.clock .hand.second {
+    width: 3px;
+    height: 45%;
+    background-color: red;
+}
+
+.clock .hand.minute {
+    width: 7px;
+    height: 40%;
+    background-color: black;
+}
+
+.clock .hand.hour {
+    width: 2.0px;
+    height: 38%;
+    background-color: #872dedf0;
+    border: none;
+}
+
+.filled {
+    background-color: #581c9cf0;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid #581c9cf0; 
+    border-left: 2.5px solid  #581c9cf0;
+    border-right: 2.5px solid  #581c9cf0;
+}
+
+.filled2 {
+    background-color: #581c9cf0;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid #581c9cf0; 
+    /* border-left: 2.5px solid  #581c9cf0;
+    border-right: 2.5px solid  #581c9cf0; */
+}
+
+
+/* Schedule */
+.btn-1 {
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    border: 2px solid #e2c13e;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    cursor: pointer;
+    margin-top: -60px;
+    color:#e2c13e;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer p {
+    position: relative;
+    top: 20px;
+    font-size: 10px;
+    margin-bottom: 20px;
+
+}
+
+.forward{
+    color:rgba(0,0,0,0.7);
+    cursor:context-menu;
+}
+
+.close{
+    position:absolute;
+    top:35px;
+    right:35px;
+    cursor:context-menu;
+}
+
+.change-hour{
+    display: flex;
+    flex-direction: column;
+}
+
+.in-hour{
+    width: 0px;
+    height: 0px;
+    border: 2px solid transparent;
+    border-top: 0;
+    border-bottom: 4px solid white;
+}
+
+#in-hour{
+    margin-left:-10px;
+}
+#in-min{
+    margin-right:-20px;
+}
+#hr{
+    width: 30px;
+    text-align: right;
+}
+
+.am-pm{
+    cursor: context-menu;
+}
+
+#am #pm{
+    padding: 3px;
+}
+
+#pm{
+    background-color: #fff;
+    color:#000;
+}
